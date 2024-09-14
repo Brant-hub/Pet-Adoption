@@ -1,0 +1,212 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.top-section-wrapper {
+  background-color: #001D37;
+  padding-left: 16px;
+  padding-right: 16px;
+  overflow: hidden;
+}
+
+.top-section h1 {
+  max-width: 525px;
+  font-size: 6.25rem;
+  margin: 0;
+  line-height: 97.3%;
+}
+
+@media screen and (min-width: 600px) {
+  .top-section h1 {
+    font-size: 2rem;
+  }
+}
+
+.actual-top-content {
+  z-index: 2;
+  position: relative;
+}
+
+.intro-text {
+  max-width: 435px;
+  font-size: 1.25rem;
+  line-height: 169.3%;
+  margin: 1rem 0;
+}
+
+.top-section {
+
+  color: white;
+  padding-top: 139px;
+  padding-bottom: 139px;
+  max-width: 1099px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.intro-buttons {
+  margin-bottom: 129px;
+}
+
+.our-btn {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.125rem;
+  background-color: #475AFF;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 13px 25px;
+  border-radius: 1000px;
+  border: 2px solid #475AFF;
+
+}
+
+.our-btn--outline {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.utility-mr {
+  margin-right: 10px
+}
+
+.intro-feature {
+  padding: 33px 25px;
+  border: 1px solid rgba(255, 255, 255, .24);
+}
+
+.intro-feature p {
+  font-size: 1.0625rem;
+}
+
+.intro-feature h2 {
+  font-size: 1.5rem;
+  margin: 44px 0 3px 0;
+}
+
+.intro-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+}
+
+.circle1 {
+  width: 617px;
+  height: 617px;
+  background: #D660FF;
+  opacity: .85;
+  border-radius: 50%;
+  filter: blur(150px);
+  position: absolute;
+  top: 62px;
+  right: -392px;
+
+}
+
+.circle2 {
+  width: 617px;
+  height: 617px;
+  background: #6079FF;
+  opacity: .85;
+  border-radius: 50%;
+  filter: blur(150px);
+  position: absolute;
+  top: -360px;
+  left: -121px;
+
+}
+
+.page-section {
+  background-color: #ffffff;
+  padding: 131px 16px;
+}
+
+.page-section-inner {
+  max-width: 1066px;
+  margin: 0 auto;
+}
+
+.page-section-title {
+  font-size: 5.3125rem;
+  margin: 0;
+  line-height: 1;
+}
+
+.pet-filter {
+  color: #9F9F9F;
+  font-size: 1.375rem;
+}
+
+.pet-filter button {
+  background-color: transparent;
+  border: none;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1.375rem;
+  color: #9F9F9F;
+}
+
+.site-footer {
+  text-align: center;
+  color: #A6A6A6;
+  font-size: 0.875rem;
+  margin: 0;
+  padding: 0 0 433px 0;
+}
+
+.list-of-pets {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 34px;
+  row-gap: 28px;
+}
+
+.pet-card {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 165px 1fr;
+  border: 1px solid #F3F3F3;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+
+.pet-card-photo {
+  order: 1;
+  grid-row: 1;
+
+}
+
+.pet-card-photo img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pet-card-text {
+  padding: 23px 30px;
+}
+
+.pet-card-text h3 {
+  margin: 0 0 .875rem;
+  font-size: 1.625rem;
+  font-weight: 600;
+}
+
+.pet-description {
+  margin: 0 0 .875rem;
+  color: #626262;
+  line-height: 150%;
+}
+
+.pet-age {
+  color: #A2A2A2;
+  font-size: .85rem;
+  margin: 0;
+}
